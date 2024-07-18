@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #a28872;
+  padding: 10px;
+  width: 100%;
+  position: sticky;
+  z-index: 5;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+
+label.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+.active{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  transition: .2s;
+}
+.active:hover{
+  background-color: rgb(118, 103, 103);
+}
+nav ul li a{
+  color: black;
+  padding: 5px;
+  border-radius: 20px;
+  transition: .2s;
+}
+
+a:hover{
+  background-color: black;
+  color: white;
+}
+
+.searchBar {
+  display: flex;
+  margin-left: 20%;
+
+}
+
+.searchBar input {
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+
+}
+
+.searchBar button {
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px;
+}
+.container-1{
+  background-color: black;
+}
+.container-1 > img{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  opacity: 0.5;
+} 
+.container-1 h1{
+  width: 30%;
+  height: 200px;
+  top: 0;
+  left: 0;
+  margin-top: 230px;
+  margin-left: 350px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  color: white;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+.container-1 h1:hover {
+    box-shadow: inset 500px 0 0 0 #a28872;
+}
+.container-1 p{
+  width: 30%;
+  height: 200px;
+  top: 0;
+  left: 0;
+  margin-top: 290px;
+  margin-left: 360px;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  color: white;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.login{
+  color: white;
+  width: 20%;
+  height: 270px;
+  top: 0;
+  left: 0;
+  margin-top: 220px;
+  margin-left: 70%;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: absolute;
+  border-radius: 20px;
+  border-style: double;
+  backdrop-filter: blur(10px);
+}
+.login h2{
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.login input{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+}
+.login button{
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  background-color: lightseagreen;
+  
+}
+section h2 { 
+  text-align: center;
+  margin: 30px;
+}
+.container-2 img{
+  transition: 1s ease;
+}
+.container-2 img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.card-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 200px;
+  height: 230px;
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  padding: 10px;
+  border-radius: 30px;
+  transition: .5s ease;
+}
+.card:hover{
+  transform: scale(1.1);
+  background-color:rgb(118, 103, 103);
+  color: white;
+}
+.card p{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+.container-3{
+  display: inline-flex;
+  
+}
+.container-3 img{
+  transition: .2s;
+}
+.container-3 img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.about-content{
+  margin-top: 50px;
+  padding: 40px;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+.about-content:hover {
+    box-shadow: inset 800px 0 0 0 #a28872;
+    height: 130px;
+}
+.about-content p{
+  padding-top: 10px;
+  text-align: justify;
+}
+.container-4{
+  background-color: #a28872;
+  padding: 10px;
+}
+.container-4 p{
+  margin-left: 30px;
+}
+
